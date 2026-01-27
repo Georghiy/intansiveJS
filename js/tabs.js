@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   // текста и картинок
   function activeTabEl(tabData, elList) {    
     elList.forEach(element => {        
-      element.classList.toggle('hidden')
+      element.classList.add('hidden')
       if (element.dataset.tabsField === tabData) {
         element.classList.remove('hidden')            
       }        
